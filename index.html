@@ -97,7 +97,6 @@
 				   <li class='active'><a href="/room/list">酒店</a></li>
 				   <li><a href="/movie/index">电影院</a></li>
 					<li>
-						<a th:text="|欢迎 [${session.yuser.userName}]|" th:if="${session.yuser!= null}" href="/auth/userIndex">欢迎 xxx</a>
 						<a th:text="|登录|" th:if="${session.yuser== null}" href="/auth/login">登录</a>
 						<ul>
 							<span class="top"></span><span class="bottom"></span>
